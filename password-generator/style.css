@@ -1,0 +1,131 @@
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background: linear-gradient(135deg, #000000 0%, #370c61 100%);
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+}
+
+.container {
+   background-color: rgba(0, 0, 0, 0.7);
+   padding: 30px;
+   border-radius: 15px;
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+   text-align: center;
+   width: 350px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.password-container {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+   width: 100%;
+}
+
+.password-container input {
+   flex: 1;
+   padding: 12px;
+   border: 2px solid #333;
+   border-radius: 5px;
+   background-color: #1e1e1e;
+   color: #fff;
+   margin-right: 10px;
+   font-size: 16px;
+}
+
+#copy {
+   padding: 12px 20px;
+   border: none;
+   border-radius: 5px;
+   background-color: #009f78;
+   color: #fff;
+   cursor: pointer;
+   transition: background-color 0.3s, transform 0.2s;
+}
+
+#copy:hover {
+   background-color: #009f78;
+   transform: scale(1.05);
+}
+
+.strength {
+   margin-bottom: 20px;
+   font-weight: bold;
+}
+
+.options {
+   width: 100%;
+   text-align: left;
+   margin-bottom: 20px;
+}
+
+.options label {
+   display: block;
+   margin-bottom: 5px;
+   font-weight: bold;
+   transition: color 0.3s;
+}
+
+.checkbox-container {
+   display: flex;
+   align-items: center;
+   margin-bottom: 5px;
+}
+
+.checkbox-container input {
+   display: none;
+}
+
+.checkbox-container label {
+   display: flex;
+   justify-content: center;
+   width: 84px;  
+   height: 24px; 
+   border: 2px solid #333;
+   border-radius: 5px;
+   background-color: #1e1e1e;
+   color: #fff;
+   cursor: pointer;
+   font-size: 14px;
+   text-align: center; 
+   line-height: 24px; 
+   transition: background-color 0.3s, border-color 0.3s, transform 0.2s;
+}
+
+.checkbox-container input:checked + label {
+   background-color: #0c1715;
+   border-color: #009f78;
+}
+
+.checkbox-container label:hover {
+   background-color: #333;
+   transform: scale(1.1);
+}
+
+input[type="range"] {
+   width: 100%;
+   margin-bottom: 10px;
+}
+
+button#generate {
+   padding: 15px 30px;
+   border: none;
+   border-radius: 5px;
+   background-color: #009f78;
+   color: #fff;
+   cursor: pointer;
+   font-size: 16px;
+   transition: background-color 0.3s, transform 0.2s;
+   margin-top: 20px;
+}
+
+button#generate:hover {
+   background-color: #74b9ff;
+   transform: scale(1.05);
+}

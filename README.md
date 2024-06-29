@@ -14,5 +14,5 @@ Bu proje, kullanıcıların belirli kriterlere göre güçlü şifreler oluştur
 1. Depoyu klonlayın:
    ```bash
    git clone https://github.com/leansvia/password-generator.git
-![Resim Açıklaması](images/resim-adi.jpg)
-![Resim Açıklaması](images/resim-adi.jpg)
+![Resim Açıklaması](img.png)
+
